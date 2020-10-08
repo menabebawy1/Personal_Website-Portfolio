@@ -1,5 +1,18 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #C5C6C7;
+}
+
+body{
+    background-color: #0B0C10;
+}
+
+.container1{
+    background-image: url(colors.png) no-repeat;
+}
+
+.container2{
+    background-image: url(website.png) no-repeat;
 }
 
 
