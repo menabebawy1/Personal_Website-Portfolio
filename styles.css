@@ -1,7 +1,11 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: 	#66FCF1;
     color: #0B0C10;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     font-size: 22px;
     font-weight: normal;
     line-height: 2em;
@@ -12,6 +16,37 @@ body {
   }
   p {
     color: red;
+  }
+  .general{
+      background-color: #1F2833;
+      margin: 0;
+  }
+  .container{
+      width: 100%;
+      border-right: 5px red solid;
+      /*
+      margin: 0px 0px 0px 0px;
+      border: 0px 0px 0px 0px;
+      padding:0px 0px 0px 0px;
+      */
+      
+  }
+  
+  .container p{
+      color: orange;
+  }
+
+  a{
+      text-decoration: none;
+      color: yellow;
+  }
+
+  a:hover{
+      color: black;
+  }
+
+  a:active{
+      color: blue;
   }
 
   /*
