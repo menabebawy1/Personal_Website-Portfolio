@@ -2,53 +2,65 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
+
+/*
 body {
-    background-color: 	#66FCF1;
+    background-color: white;
     color: #0B0C10;
-    
     font-size: 22px;
     font-weight: normal;
     line-height: 2em;
     
-  }
-  h1 {
+}
+h1 {
+color: blue;
+}
+
+.general{
+    background-color: #1F2833;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    border-right: 5px red solid;
+    
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    
+    
+}
+
+
+.container p{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
     color: blue;
-  }
-  p {
-    color: red;
-  }
-  .general{
-      background-color: #1F2833;
-      margin: 0;
-  }
-  .container{
-      width: 100%;
-      border-right: 5px red solid;
-      /*
-      margin: 0px 0px 0px 0px;
-      border: 0px 0px 0px 0px;
-      padding:0px 0px 0px 0px;
-      */
-      
-  }
-  
-  .container p{
-      color: orange;
-  }
+}
 
-  a{
-      text-decoration: none;
-      color: yellow;
-  }
-
-  a:hover{
-      color: black;
-  }
-
-  a:active{
-      color: blue;
-  }
-
+#copy {
+    font-family: 'Lobster', cursive;
+    color:   #66FCF1;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), black,  rgba(255, 255, 255, 0));
+}
+*/
   /*
   #0B0C10
   #1F2833
