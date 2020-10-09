@@ -3,21 +3,227 @@
     color: #C5C6C7;
 }
 
-body{
-    background-color: #0B0C10;
-}
-
 .container1{
-    background-image: url(colors.png) no-repeat;
+     background: url('one.jpeg');
+     height: 500px; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the*/
+     image-rendering: pixelated;
+
 }
 
 .container2{
-    background-image: url(website.png) no-repeat;
+    background-image: url(website.png);
+}
+
+
+body {
+    background: #333;
+    margin: 0px;
+    
 }
 
 
 
 
+
+
+
+
+  
+  /* DEMO-SPECIFIC STYLES */
+
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+ .container{
+     background-color: black;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 40px;
+     padding-right: 40px;
+
+ }
+  
+  #parent {
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden; 
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 50px;
+    color: #555;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+  }
+  
+  #border {
+    border-bottom: solid 6px rgba(0,255,0,.75);
+    position: absolute;
+    right: -5px;
+    width: 30px;
+  }
+  
+  /* Animation */
+  #parent {
+    animation: animated-text 2s steps(30,end)  1 normal both;
+  }
+  
+  #border {
+     animation: animated-cursor 600ms steps(30,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 1030px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-bottom-color: rgba(0,255,0,.75);}
+    to{border-bottom-color: transparent;}
+  }
+
+
+
+
+
+
+
+
+  .css-typing{
+    background: black;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+  }
+
+  .css-typing p {
+    border-right: .15em solid green;
+    font-family: "Courier";
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 50px;
+  }
+  .css-typing p:nth-child(1) {
+    width: 10em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 12.5em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
 /*
 body {
     background-color: white;
@@ -73,11 +279,10 @@ a:active{
     font-size: 20px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), black,  rgba(255, 255, 255, 0));
 }
-*/
-  /*
-  #0B0C10
-  #1F2833
-  #C5C6C7
-  #66FCF1
-  #45A29E
+
+  #0B0C10 //Black
+  #1F2833 //Dark grey
+  #C5C6C7 //Grey
+  #66FCF1 //Bright
+  #45A29E //Darker Bright
   */
