@@ -1,229 +1,209 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #C5C6C7;
-}
-
-.container1{
-     background: url('one.jpeg');
-     height: 500px; /* You must set a specified height */
-     background-position: center; /* Center the image */
-     background-repeat: no-repeat; /* Do not repeat the image */
-     background-size: cover; /* Resize the*/
-     image-rendering: pixelated;
-
-}
-
-.container2{
-    background-image: url(website.png);
-}
-
-
-body {
-    background: #333;
-    margin: 0px;
-    
-}
-
-
-
-
-
-
-
-
-  
-  /* DEMO-SPECIFIC STYLES */
-
-  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
- .container{
-     background-color: black;
-     padding-top: 100px;
-     padding-bottom: 100px;
-     padding-left: 40px;
-     padding-right: 40px;
-
- }
-  
-  #parent {
-    height: 40px;
-    white-space: nowrap;
-    overflow: hidden; 
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 50px;
     color: #555;
-    position: relative;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    
-  }
-  
-  #border {
-    border-bottom: solid 6px rgba(0,255,0,.75);
-    position: absolute;
-    right: -5px;
-    width: 30px;
-  }
-  
-  /* Animation */
-  #parent {
-    animation: animated-text 2s steps(30,end)  1 normal both;
-  }
-  
-  #border {
-     animation: animated-cursor 600ms steps(30,end) infinite;
-  }
-  
-  /* text animation */
-  
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 1030px;}
-  }
-  
-  /* cursor animations */
-  
-  @keyframes animated-cursor{
-    from{border-bottom-color: rgba(0,255,0,.75);}
-    to{border-bottom-color: transparent;}
-  }
-
-
-
-
-
-
-
-
-  .css-typing{
     background: black;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
-    
+}
 
-  }
 
-  .css-typing p {
-    border-right: .15em solid green;
-    font-family: "Courier";
-    font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 50px;
-  }
-  .css-typing p:nth-child(1) {
-    width: 10em;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  
-  .css-typing p:nth-child(2) {
-    width: 12.5em;
-    opacity: 0;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
+.container{
+  color: #555;
+  background: black;
+  padding: 50px;
+  margin: 50px;
+  font-size: 2.5vw;
+  border: 1px solid #555;
+  border-right: 5px solid #4ba173;
+  border-radius: 5px;
   
 
+}
+
+img{
+  border-radius: 10%;
+  border: 5px #4ba173 solid;
+  width: 25%;
+  margin: 30px;
+  image-rendering: auto;
   
-  @keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      border: none;
-    }
-  }
+}
+
+h2{
+  color: #63d297;
+}
+
+#paragraph{
+  padding: 10px;
+  margin: 10px;
+}
+
+#copy{
+  text-align: center;
+  margin: 50px;
+}
+
+.css-typing{
+  background: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
   
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      border: none;
-    }
+}
+
+
+.css-typing p {
+  border-right: .15em solid #4ba173;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 7vw;
+  color: #555;
+
+}
+.css-typing p:nth-child(1) {
+  width: 70vw;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+
+}
+
+.css-typing p:nth-child(2) {
+  width: 90vw;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 33vw;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(8, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(8, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
   }
-  
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  99.9% {
+    border-right: .15em solid #4ba173;
   }
-  
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  100% {
+    border: none;
   }
-  
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
   }
-  
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+  99.9% {
+    border-right: .15em solid #4ba173;
   }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+  100% {
+    border: none;
   }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
   }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #4ba173;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #4ba173;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 /*
 body {
     background-color: white;
