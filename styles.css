@@ -4,7 +4,6 @@
     background: black;
 }
 
-
 .container{
   color: #555;
   background: black;
@@ -22,10 +21,7 @@
   border: 1px solid #24523c;
   border-radius: 15px;
   padding: 10px;
-  
-
 }
-
 
 .con{
   text-decoration: none;
@@ -44,11 +40,7 @@
   width: 30%;
   height: 30%;
   max-width: 220px;
-
 }
-
-
-
 
 h2{
   color: #24523c ;
@@ -56,20 +48,15 @@ h2{
   font-family: 'Times New Roman', Times, serif;
 }
 
-
-
 .linked{
   margin: 30px;
   width: 30%;
   height: 30%;
   border-radius: 10px;
-  
 }
 
 .linked:hover{
-
   box-shadow: 0 6px 10px 0 rgba(75, 161, 115, 0.2), 0 8px 22px 0 rgba(75, 161, 115, 0.19);
-
 }
 
 li:hover{
@@ -79,9 +66,6 @@ li:hover{
 #copy p:hover{
   color: #24523c;
 }
-
-
-
 
 #copy{
   text-align: center;
@@ -126,7 +110,6 @@ ul {
   
 }
 
-
 .css-typing p {
   border-right: .15em solid #24523c;
   font-family: "Courier";
@@ -137,14 +120,13 @@ ul {
   color: #555;
 
 }
+
 .css-typing p:nth-child(1) {
   width: 70vw;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-
-
 }
 
 .css-typing p:nth-child(2) {
@@ -168,7 +150,6 @@ ul {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
 
 @keyframes type {
   0% {
@@ -261,21 +242,11 @@ ul {
   }
 }
 
-
-
-
-
-
-
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -297,65 +268,3 @@ ul {
     float: left;
   }
 }
-/*
-body {
-    background-color: white;
-    color: #0B0C10;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 2em;
-    
-}
-h1 {
-color: blue;
-}
-
-.general{
-    background-color: #1F2833;
-    margin: 0;
-}
-.container{
-    width: 100%;
-    border-right: 5px red solid;
-    
-    margin: 0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-    
-    
-}
-
-
-.container p{
-    color: orange;
-}
-
-a{
-    text-decoration: none;
-    color: yellow;
-}
-
-a:hover{
-    color: black;
-}
-
-a:active{
-    color: blue;
-}
-
-#copy {
-    font-family: 'Lobster', cursive;
-    color:   #66FCF1;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 20px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), black,  rgba(255, 255, 255, 0));
-}
-
-  #0B0C10 //Black
-  #1F2833 //Dark grey
-  #C5C6C7 //Grey
-  #66FCF1 //Bright
-  #45A29E //Darker Bright
-  */
