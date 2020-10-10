@@ -20,7 +20,7 @@
 .cont{
   margin: 10px;
   border: 1px solid #24523c;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px;
   
 
@@ -43,6 +43,7 @@
   image-rendering: auto;
   width: 30%;
   height: 30%;
+  max-width: 220px;
 
 }
 
@@ -51,6 +52,8 @@
 
 h2{
   color: #24523c ;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -67,7 +70,14 @@ h2{
 
   box-shadow: 0 6px 10px 0 rgba(75, 161, 115, 0.2), 0 8px 22px 0 rgba(75, 161, 115, 0.19);
 
+}
 
+li:hover{
+  color: #24523c;
+}
+
+#copy p:hover{
+  color: #24523c;
 }
 
 
@@ -75,7 +85,7 @@ h2{
 
 #copy{
   text-align: center;
-  margin: 50px;
+  margin: 80px;
   font-size: 2.5vw;
 }
 
@@ -258,10 +268,14 @@ ul {
 
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
