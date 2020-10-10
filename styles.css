@@ -9,8 +9,8 @@
   background: black;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
+  margin-right: 30px;
   padding: 50px;
   font-size: 2.5vw;
   box-shadow: 0 4px 8px 0 rgba(75, 161, 115, 0.2), 0 6px 20px 0 rgba(75, 161, 115, 0.19);
@@ -49,9 +49,9 @@ h2{
 }
 
 .linked{
-  margin: 30px;
   width: 30%;
   height: 30%;
+  margin: 30px;
   border-radius: 10px;
 }
 
@@ -243,10 +243,14 @@ ul {
 }
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
