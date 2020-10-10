@@ -38,7 +38,7 @@
 
 #Profile{
   border-radius: 10px;
-  border: 5px #24523c solid;
+  border: 3px #24523c solid;
   margin: 30px;
   image-rendering: auto;
   width: 30%;
@@ -56,18 +56,20 @@ h2{
 
 
 .linked{
-  box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
   margin: 30px;
   width: 30%;
   height: 30%;
+  border-radius: 10px;
   
 }
 
 .linked:hover{
-  box-shadow: 0 4px 8px 0 rgba(75, 161, 115, 0.2), 0 6px 20px 0 rgba(75, 161, 115, 0.19);
+
+  box-shadow: 0 6px 10px 0 rgba(75, 161, 115, 0.2), 0 8px 22px 0 rgba(75, 161, 115, 0.19);
 
 
 }
+
 
 
 
@@ -85,11 +87,11 @@ ul {
   background-color: black;
 }
 
-li {
+.li {
   float: left;
 }
 
-li a {
+.li a {
   display: block;
   color: #555;
   text-align: center;
@@ -97,7 +99,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.li a:hover {
   color: #24523c;
 }
 
