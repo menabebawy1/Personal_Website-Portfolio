@@ -59,7 +59,8 @@ body {
 	margin-bottom: 30px;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+  margin-right: auto;
+
 }
 
 h2 {
@@ -72,11 +73,17 @@ h2 {
 	width: 200px;
 	height: 200px;
 	border-radius: 10px;
-	margin: 30px;
+  margin: 30px;
+  
+
 }
 
 .linked:hover {
-	box-shadow: 4px 10px 14px 4px rgba(75, 161, 115, 0.2), 4px 12px 26px 4px rgba(75, 161, 115, 0.19);
+  box-shadow: 4px 10px 14px 4px rgba(75, 161, 115, 0.2), 4px 12px 26px 4px rgba(75, 161, 115, 0.19);
+  transform: rotateY(360deg);
+  -webkit-transition: transform 2s ease-in-out;
+
+
 }
 
 li:hover {
@@ -288,7 +295,7 @@ ul {
 	}
 	.li {
 		font-size: 3vw;
-	}
+  }
 }
 
 
@@ -310,7 +317,7 @@ ul {
 	}
 	.li {
 		font-size: 2.5vw;
-	}
+  }
 }
 
 
