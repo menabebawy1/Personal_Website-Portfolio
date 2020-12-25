@@ -21,7 +21,7 @@ body {
 	box-shadow: 4px 8px 12px 4px rgba(75, 161, 115, 0.2), 4px 10px 24px 4px rgba(0, 0, 0, 1);
 }
 
-#contact {
+#contact a{
 	color: black;
 }
 
