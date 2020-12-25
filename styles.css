@@ -84,6 +84,7 @@ margin: 80px;
 font-size: 2.5vw;
 }
 
+
 ul {
 list-style-type: none;
 margin: 0;
@@ -97,6 +98,8 @@ float: left;
 font-size: 2.5vw;
 
 }
+
+
 
 #logo{
   width: 12vw;
@@ -279,6 +282,15 @@ animation-fill-mode: forwards;
     width: 150px;
     height: 150px;
   }
+  .container{
+    font-size: 3vw;
+  }
+  #copy{
+    font-size: 3vw;
+  }
+  .li{
+    font-size: 3vw;
+  }
  
 }
 
@@ -291,6 +303,15 @@ animation-fill-mode: forwards;
     width: 200px;
     height: 200px;
   }
+  .container{
+    font-size: 2.5vw;
+  }
+  #copy{
+    font-size: 2.5vw;
+  }
+  .li{
+    font-size: 2.5vw;
+  }
 
 }
 
@@ -301,8 +322,21 @@ animation-fill-mode: forwards;
     width: 200px;
     height: 200px;
     margin: 30px;
-
   }
+
+  .container{
+    font-size: 2vw;
+  }
+  #copy{
+    font-size: 2vw;
+  }
+  .li{
+    font-size: 2vw;
+  }
+
+  
+
+
 
 }
 
@@ -315,6 +349,16 @@ animation-fill-mode: forwards;
     margin: 30px;
 
   }
+  .container{
+    font-size: 1.7vw;
+  }
+  #copy{
+    font-size: 1.7vw;
+  }
+  .li{
+    font-size: 1.7vw;
+  }
+
 
 }
 
