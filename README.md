@@ -7,4 +7,4 @@ It includes my Bio, my favourite projects, languaes that I know, and links to my
 
 the following is a little preview of the website:
 
-![Website Preview](website.png)
+![Website Preview](images/website.png)
