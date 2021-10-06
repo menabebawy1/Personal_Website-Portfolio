@@ -368,3 +368,25 @@ ul {
     margin: 30px;
   }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e8e67; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
