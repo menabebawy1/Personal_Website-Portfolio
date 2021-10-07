@@ -382,7 +382,8 @@ ul {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3e8e67; 
+  /*background: #3e8e67; */
+  background-image: linear-gradient(to bottom, #3e8e67 , black);
   border-radius: 50px;
 }
 
